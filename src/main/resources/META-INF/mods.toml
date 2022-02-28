@@ -16,7 +16,7 @@ credits="onVoid, SameDifferent, Vazkii"
 authors="onVoid"
 description="Adds block variants from Quark for Better Azalea's wood types (and crafting tables)."
 itemIcon="quarkazalea:azalea_chest"
-configBackground="betterazalea:textures/block/azalea_planks.png"
+configBackground="azalea:textures/block/azalea_planks.png"
 
 [[dependencies.quarkazalea]]
     modId="forge"
