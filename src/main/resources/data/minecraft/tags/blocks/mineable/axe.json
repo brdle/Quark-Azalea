@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "quarkazalea:azalea_vertical_slab",
+    "quarkazalea:azalea_post",
+    "quarkazalea:stripped_azalea_post",
+    "quarkazalea:azalea_bookshelf",
+    "quarkazalea:azalea_hedge",
+    "quarkazalea:azalea_ladder",
+    "quarkazalea:azalea_chest",
+    "quarkazalea:azalea_trapped_chest",
+    "quarkazalea:flowering_azalea_vertical_slab",
+    "quarkazalea:flowering_azalea_post",
+    "quarkazalea:flowering_azalea_bookshelf",
+    "quarkazalea:flowering_azalea_hedge",
+    "quarkazalea:flowering_azalea_ladder",
+    "quarkazalea:flowering_azalea_chest",
+    "quarkazalea:flowering_azalea_trapped_chest"
+  ]
+}

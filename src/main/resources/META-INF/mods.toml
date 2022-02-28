@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="MIT License"
+issueTrackerURL="https://github.com/onVoid/Quark-Azalea/issues"
+
+
+[[mods]]
+modId="quarkazalea"
+version="${file.jarVersion}"
+displayName="Quark Azalea"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/quark-azalea"
+updateJSONURL="https://onvoid.net/quarkazalea/update.json"
+logoFile="quarkazalea.png"
+logoBlur=false
+credits="onVoid, SameDifferent, Vazkii"
+authors="onVoid"
+description="Adds block variants from Quark for Better Azalea's wood type (and crafting table)."
+itemIcon="quarkazalea:azalea_chest"
+configBackground="betterazalea:textures/block/azalea_planks.png"
+
+[[dependencies.quarkazalea]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.quarkazalea]]
+    modId="azalea"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.quarkazalea]]
+    modId="blueprint"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="BEFORE"
+    side="BOTH"

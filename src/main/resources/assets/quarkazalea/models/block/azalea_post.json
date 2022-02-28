@@ -1,0 +1,6 @@
+{
+  "parent": "blueprint:block/post",
+  "textures": {
+    "texture": "azalea:block/azalea_log"
+  }
+}
