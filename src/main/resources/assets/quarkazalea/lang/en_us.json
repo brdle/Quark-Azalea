@@ -15,5 +15,7 @@
   "block.quarkazalea.flowering_azalea_hedge": "Flowering Azalea Leaf Hedge",
   "block.quarkazalea.flowering_azalea_chest": "Flowering Azalea Chest",
   "block.quarkazalea.flowering_azalea_trapped_chest": "Flowering Azalea Trapped Chest",
-  "block.quarkazalea.flowering_azalea_crafting_table": "Flowering Azalea Crafting Table"
+  "block.quarkazalea.flowering_azalea_crafting_table": "Flowering Azalea Crafting Table",
+  "item.quarkazalea.azalea_boat": "Azalea Boat",
+  "item.quarkazalea.flowering_azalea_boat": "Flowering Azalea Boat"
 }

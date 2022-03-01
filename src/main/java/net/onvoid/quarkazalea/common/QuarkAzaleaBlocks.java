@@ -22,6 +22,7 @@ import samebutdifferent.azalea.registry.ModBlocks;
 public class QuarkAzaleaBlocks {
 public static final BlockSubRegistryHelper HELPER = QuarkAzalea.REGISTRY_HELPER.getBlockSubHelper();
 
+    public static final String AZALEA_MODID = "azalea";
     public static final String QUARK_MODID = "quark";
     public static final String MORECRAFTINGTABLES_MODID = "mctb";
 
