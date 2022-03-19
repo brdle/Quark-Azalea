@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "quarkazalea:block/blossom_crafting_table_front",
+    "north": "quarkazalea:block/blossom_crafting_table_front",
+    "south": "quarkazalea:block/blossom_crafting_table_side",
+    "east": "quarkazalea:block/blossom_crafting_table_side",
+    "west": "quarkazalea:block/blossom_crafting_table_front",
+    "up": "quarkazalea:block/blossom_crafting_table_top",
+    "down": "quark:block/blossom_planks"
+  }
+}
