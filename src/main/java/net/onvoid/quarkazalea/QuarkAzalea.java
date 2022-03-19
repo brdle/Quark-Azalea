@@ -12,7 +12,7 @@ import net.onvoid.quarkazalea.proxy.CommonProxy;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("quarkazalea")
+@Mod(QuarkAzalea.MODID)
 public class QuarkAzalea
 {
     public static final String MODID = "quarkazalea";

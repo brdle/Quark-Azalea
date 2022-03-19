@@ -34,6 +34,8 @@ public class CommonProxy {
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_VERTICAL_SLAB.get(), 5, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_BOOKSHELF.get(), 30, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_CRAFTING_TABLE.get(), 5, 20);
+            // Blossom
+            DataUtil.registerFlammable(QuarkAzaleaBlocks.BLOSSOM_CRAFTING_TABLE.get(), 5, 20);
         });
     }
 }
