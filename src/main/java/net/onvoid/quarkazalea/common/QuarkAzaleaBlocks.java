@@ -16,6 +16,8 @@ import net.minecraft.world.level.material.MaterialColor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.registries.RegistryObject;
 import net.onvoid.quarkazalea.QuarkAzalea;
+import net.onvoid.quarkazalea.common.compat.FarmersDelightCompat;
+import net.onvoid.quarkazalea.common.compat.NotFoundBlock;
 import samebutdifferent.azalea.registry.ModBlocks;
 
 @Mod.EventBusSubscriber(modid = QuarkAzalea.MODID)
@@ -25,6 +27,7 @@ public static final BlockSubRegistryHelper HELPER = QuarkAzalea.REGISTRY_HELPER.
     public static final String AZALEA_MODID = "azalea";
     public static final String QUARK_MODID = "quark";
     public static final String MORECRAFTINGTABLES_MODID = "mctb";
+    public static final String FARMERS_DELIGHT_MODID = "farmersdelight";
 
     // Azalea
     public static final RegistryObject<Block> AZALEA_VERTICAL_SLAB = HELPER.createCompatFuelBlock(QUARK_MODID, "azalea_vertical_slab",() -> new VerticalSlabBlock(BlockBehaviour.Properties.copy(ModBlocks.AZALEA_PLANKS.get())), 150, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -35,6 +38,8 @@ public static final BlockSubRegistryHelper HELPER = QuarkAzalea.REGISTRY_HELPER.
     public static final RegistryObject<Block> AZALEA_HEDGE = HELPER.createCompatFuelBlock(QUARK_MODID, "azalea_hedge", () -> new HedgeBlock(BlockBehaviour.Properties.copy(ModBlocks.AZALEA_PLANKS.get())), 300, CreativeModeTab.TAB_DECORATIONS);
     public static final Pair<RegistryObject<BlueprintChestBlock>, RegistryObject<BlueprintTrappedChestBlock>> AZALEA_CHESTS = HELPER.createCompatChestBlocks(QUARK_MODID, "azalea", MaterialColor.COLOR_RED);
     public static final RegistryObject<Block> AZALEA_CRAFTING_TABLE = HELPER.createCompatFuelBlock(AZALEA_MODID, "azalea_crafting_table", () -> new AzaleaCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)), 300, CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> AZALEA_CABINET = HELPER.createCompatFuelBlock(FARMERS_DELIGHT_MODID, "azalea_cabinet", BlockSubRegistryHelper.areModsLoaded(FARMERS_DELIGHT_MODID) ? FarmersDelightCompat.AZALEA_CABINET : () -> new NotFoundBlock(BlockBehaviour.Properties.copy(Blocks.BARREL)), 300, CreativeModeTab.TAB_DECORATIONS);
+
     // Flowering Azalea
     public static final RegistryObject<Block> FLOWERING_AZALEA_VERTICAL_SLAB = HELPER.createCompatFuelBlock(QUARK_MODID, "flowering_azalea_vertical_slab",() -> new VerticalSlabBlock(BlockBehaviour.Properties.copy(ModBlocks.FLOWERING_AZALEA_PLANKS.get())), 150, CreativeModeTab.TAB_BUILDING_BLOCKS);
     public static final RegistryObject<Block> FLOWERING_AZALEA_BOOKSHELF = HELPER.createCompatFuelBlock(QUARK_MODID, "flowering_azalea_bookshelf", () -> new BookshelfBlock(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_RED).strength(1.5f).sound(SoundType.WOOD)), 300, CreativeModeTab.TAB_BUILDING_BLOCKS);
@@ -43,6 +48,10 @@ public static final BlockSubRegistryHelper HELPER = QuarkAzalea.REGISTRY_HELPER.
     public static final RegistryObject<Block> FLOWERING_AZALEA_HEDGE = HELPER.createCompatFuelBlock(QUARK_MODID, "flowering_azalea_hedge", () -> new HedgeBlock(BlockBehaviour.Properties.copy(ModBlocks.FLOWERING_AZALEA_PLANKS.get())), 300, CreativeModeTab.TAB_DECORATIONS);
     public static final Pair<RegistryObject<BlueprintChestBlock>, RegistryObject<BlueprintTrappedChestBlock>> FLOWERING_AZALEA_CHESTS = HELPER.createCompatChestBlocks(QUARK_MODID, "flowering_azalea", MaterialColor.COLOR_RED);
     public static final RegistryObject<Block> FLOWERING_AZALEA_CRAFTING_TABLE = HELPER.createCompatFuelBlock(AZALEA_MODID, "flowering_azalea_crafting_table", () -> new AzaleaCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)), 300, CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> FLOWERING_AZALEA_CABINET = HELPER.createCompatFuelBlock(FARMERS_DELIGHT_MODID, "flowering_azalea_cabinet", BlockSubRegistryHelper.areModsLoaded(FARMERS_DELIGHT_MODID) ? FarmersDelightCompat.FLOWERING_AZALEA_CABINET : () -> new NotFoundBlock(BlockBehaviour.Properties.copy(Blocks.BARREL)), 300, CreativeModeTab.TAB_DECORATIONS);
+
     // Blossom
     public static final RegistryObject<Block> BLOSSOM_CRAFTING_TABLE = HELPER.createCompatFuelBlock(QUARK_MODID, "blossom_crafting_table", () -> new AzaleaCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.CRAFTING_TABLE)), 300, CreativeModeTab.TAB_DECORATIONS);
+    public static final RegistryObject<Block> BLOSSOM_CABINET = HELPER.createCompatFuelBlock(FARMERS_DELIGHT_MODID, "blossom_cabinet", BlockSubRegistryHelper.areModsLoaded(FARMERS_DELIGHT_MODID) ? FarmersDelightCompat.BLOSSOM_CABINET : () -> new NotFoundBlock(BlockBehaviour.Properties.copy(Blocks.BARREL)), 300, CreativeModeTab.TAB_DECORATIONS);
+
 }

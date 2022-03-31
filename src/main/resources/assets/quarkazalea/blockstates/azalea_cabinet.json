@@ -1,0 +1,37 @@
+{
+  "variants": {
+    "notfound=true": {
+      "model": "quarkazalea:block/notfound"
+    },
+    "notfound=false,facing=north,open=false": {
+      "model": "quarkazalea:block/azalea_cabinet"
+    },
+    "notfound=false,facing=south,open=false": {
+      "model": "quarkazalea:block/azalea_cabinet",
+      "y": 180
+    },
+    "notfound=false,facing=west,open=false": {
+      "model": "quarkazalea:block/azalea_cabinet",
+      "y": 270
+    },
+    "notfound=false,facing=east,open=false": {
+      "model": "quarkazalea:block/azalea_cabinet",
+      "y": 90
+    },
+    "notfound=false,facing=north,open=true": {
+      "model": "quarkazalea:block/azalea_cabinet_open"
+    },
+    "notfound=false,facing=south,open=true": {
+      "model": "quarkazalea:block/azalea_cabinet_open",
+      "y": 180
+    },
+    "notfound=false,facing=west,open=true": {
+      "model": "quarkazalea:block/azalea_cabinet_open",
+      "y": 270
+    },
+    "notfound=false,facing=east,open=true": {
+      "model": "quarkazalea:block/azalea_cabinet_open",
+      "y": 90
+    }
+  }
+}
