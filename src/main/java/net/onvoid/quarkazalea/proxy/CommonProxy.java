@@ -28,14 +28,17 @@ public class CommonProxy {
             DataUtil.registerFlammable(QuarkAzaleaBlocks.AZALEA_VERTICAL_SLAB.get(), 5, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.AZALEA_BOOKSHELF.get(), 30, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.AZALEA_CRAFTING_TABLE.get(), 5, 20);
+            DataUtil.registerFlammable(QuarkAzaleaBlocks.AZALEA_CABINET.get(), 5, 20);
             // Flowering Azalea
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_HEDGE.get(), 5, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_POST.get(), 5, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_VERTICAL_SLAB.get(), 5, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_BOOKSHELF.get(), 30, 20);
             DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_CRAFTING_TABLE.get(), 5, 20);
+            DataUtil.registerFlammable(QuarkAzaleaBlocks.FLOWERING_AZALEA_CABINET.get(), 5, 20);
             // Blossom
             DataUtil.registerFlammable(QuarkAzaleaBlocks.BLOSSOM_CRAFTING_TABLE.get(), 5, 20);
+            DataUtil.registerFlammable(QuarkAzaleaBlocks.BLOSSOM_CABINET.get(), 5, 20);
         });
     }
 }

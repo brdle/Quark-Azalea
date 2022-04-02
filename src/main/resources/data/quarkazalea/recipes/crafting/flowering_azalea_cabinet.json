@@ -1,0 +1,32 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "farmersdelight"
+        }
+      ],
+      "recipe": {
+        "type": "minecraft:crafting_shaped",
+        "pattern": [
+          "___",
+          "D D",
+          "___"
+        ],
+        "key": {
+          "_": {
+            "item": "azalea:flowering_azalea_slab"
+          },
+          "D": {
+            "item": "azalea:flowering_azalea_trapdoor"
+          }
+        },
+        "result": {
+          "item": "quarkazalea:flowering_azalea_cabinet"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "side": "quarkazalea:block/blossom_cabinet_side",
+    "front": "quarkazalea:block/blossom_cabinet_front",
+    "top": "quarkazalea:block/blossom_cabinet_top"
+  }
+}
